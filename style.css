@@ -1,5 +1,5 @@
 body{
-    background-color: #F7E904;
+    background-color: #FFFFFF;
     margin: 0px;
 }
 
@@ -7,11 +7,6 @@ body{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 60%;
-}
-
-.bottom-area{
-    display: grid;
-    grid-template-columns: 70% 30%;
 }
 
 .logo-area{
@@ -25,26 +20,11 @@ body{
 }
 
 .text-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2em;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-family: "Lucida Console";
-    text-align: right;
-    color: #191919;
-}
-
-.rabbit-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rabbit-area>img{
-    max-width: 60%;
-    height: auto;
+    display: block;
+    font-family: "Arial";
+    text-align: center;
+    color: #007042;
+	font-size: xx-large;
 }
 
 div{
